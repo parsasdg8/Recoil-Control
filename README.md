@@ -1,134 +1,51 @@
-# Recoil Control
+🔫 Recoil Control – Auto Recoil Compensation Tool
+Python
+License
+🎯 About the Project
+Recoil Control is a lightweight tool designed to help FPS gamers reduce weapon recoil. It simulates mouse movement to stabilize aim and improve shooting accuracy.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Python](https://img.shields.io/badge/python-3.6+-blue.svg)
-![AI Assisted](https://img.shields.io/badge/AI%20Enhanced-GitHub%20Copilot-brightgreen.svg)
-![Human Intelligence](https://img.shields.io/badge/Human%20Crafted-p4rsao-orange.svg)
+🖥️ Features
+- Automatic recoil compensation for FPS games
+- Simple and lightweight interface
+- Executable .exe file for easy use
+- Built with Python libraries like pyautogui and keyboard
 
-A sophisticated gaming enhancement tool created through the synergy of artificial and human intelligence. This innovative application combines the precision of AI-assisted development (GitHub Copilot) with human expertise in gaming mechanics to deliver a powerful recoil control solution.
+📸 Preview
+<div align="center"><img src="assets/Screenshot%202025-11-01%20005623.png" width="400"/><img src="assets/Screenshot%202025-11-01%20010134.png" width="400"/></div>
 
-## 🤝 Development Approach
-
-This project represents a unique collaboration between:
-
-- 🧠 **Human Intelligence** (@p4rsao):
-  - Core concept and gaming expertise
-  - User experience design
-  - Performance optimization
-  - Real-world gaming scenario testing
-
-- 🤖 **Artificial Intelligence** (GitHub Copilot):
-  - Code structure optimization
-  - Best practices implementation
-  - Error handling patterns
-  - Documentation assistance
-
-The result is a robust, efficient, and user-friendly tool that leverages the best of both worlds - human gaming intuition and AI-powered development practices.
-
-![Mouse Controller Screenshot](assets/screenshot.png)
-
-## 🎯 Features
-
-- 🖱️ Automatic downward mouse movement
-- ⚡ Adjustable movement speed (1-20 pixels)
-- 🎮 Gaming-optimized controls
-- ⌨️ Convenient hotkeys (F7/F8)
-- 🎨 Clean and intuitive GUI
-- 🔝 Always-on-top window
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Python 3.6 or higher
-- pip (Python package manager)
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/parsasdg8/Recoil-Control.git
-cd Recoil-Control
-```
-
-2. Install dependencies:
-```bash
+⚙️ Installation & Usage
+1. Install dependencies:
 pip install -r requirements.txt
-```
 
-### Running the Application
 
-```bash
+2. Run the script:
 python src/recoil_control.py
-```
 
-## 📖 How to Use
 
-1. Launch the application
-2. Press `F7` or click "Enable" button to activate
-3. Hold left mouse button to trigger automatic downward movement
-4. Use the slider to adjust movement speed
-5. Press `F8` or click "Disable" button to deactivate
+Or use the precompiled executable:
+./Recoil Control.exe
 
-## 🛠️ Building Executable
 
-To create a standalone executable:
 
-```bash
-pyinstaller --noconfirm --onefile --windowed --icon="assets/icons8-ak-47-67.ico" --add-data "assets/icons8-ak-47-67.ico;." --name="Recoil Control" src/recoil_control.py
-```
+📦 Download Executable
+To make the .exe file downloadable for others, you should:
+✅ Go to your GitHub repo
+✅ Click on "Releases" (right sidebar or top menu)
+✅ Click "Draft a new release"
+✅ Upload Recoil Control.exe as an asset
+✅ Give it a version name (e.g., v1.0) and description
+✅ Publish the release
+Then in your README, add this:
+### 📥 Download
 
-The executable will be created in the `dist` folder.
+You can download the latest version from the [Releases page](https://github.com/parsasdg8/Recoil-Control/releases).
 
-## 🎮 Use Cases
+
 
-- Gaming automation
-- Scrolling through long documents
-- Automated testing
-- Any task requiring consistent downward mouse movement
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-## 🔧 Technical Details
+🙌 Contributing
+Feel free to fork the repo, open issues, or submit pull requests. Contributions are welcome!
 
-### Built with:
-- Python 3.x
-- Tkinter (GUI)
-- PyAutoGUI (Mouse control)
-- Pynput (Keyboard/Mouse monitoring)
 
-### Development Stack:
-- 💻 VS Code with GitHub Copilot
-- 🧪 Test-driven development
-- 🎮 Real-world gaming scenarios
-- 📊 Performance optimization
-
-### AI Integration:
-- Code structure and patterns suggested by GitHub Copilot
-- Enhanced error handling through AI assistance
-- Documentation generation with AI support
-- Best practices implementation guided by AI
-
-### Human Touch:
-- Gaming expertise from real-world experience
-- User interface designed for gamers
-- Performance tuning based on actual usage
-- Customization options for different gaming styles
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-- [@parsasdg8](https://github.com/parsasdg8)
-
-## ⭐ Show your support
-
-Give a ⭐️ if this project helped you!
